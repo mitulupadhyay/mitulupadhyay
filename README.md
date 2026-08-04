@@ -138,10 +138,10 @@ A modern, minimal portfolio website showcasing my projects, skills, and journey.
 
 <div align="center">
 
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=mitulupadhyay&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=mitulupadhyay&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+<img height="165" src="https://raw.githubusercontent.com/mitulupadhyay/mitulupadhyay/output/github-stats.svg" alt="GitHub Stats"/>
+<img height="165" src="https://raw.githubusercontent.com/mitulupadhyay/mitulupadhyay/output/github-streak.svg" alt="GitHub Streak"/>
 
-<img width="55%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mitulupadhyay&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+<img width="55%" src="https://raw.githubusercontent.com/mitulupadhyay/mitulupadhyay/output/github-top-langs.svg" alt="Top Languages"/>
 
 </div>
 
