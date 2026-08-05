@@ -18,6 +18,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Make sure the output folder exists
+        run: mkdir -p dist
+
       - name: Generate snake animation SVGs
         uses: Platane/snk@v3
         id: snake-gif
@@ -33,7 +36,7 @@ jobs:
           card: stats
           options: "username=mitulupadhyay&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
           path: dist/github-stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_TOKEN }}
 
       - name: Generate top languages card
         uses: soulteary/github-readme-stats-action@v1.0.0
@@ -41,14 +44,14 @@ jobs:
           card: top-langs
           options: "username=mitulupadhyay&layout=compact&theme=tokyonight&hide_border=true"
           path: dist/github-top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_TOKEN }}
 
       - name: Generate streak stats card
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
           options: "user=mitulupadhyay&theme=tokyonight&hide_border=true"
           path: dist/github-streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_TOKEN }}
 
       - name: Push generated files to the "output" branch
         uses: crazy-max/ghaction-github-pages@v4
