@@ -15,6 +15,9 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate snake animation SVGs
         uses: Platane/snk@v3
         id: snake-gif
