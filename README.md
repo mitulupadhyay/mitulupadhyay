@@ -47,7 +47,7 @@
 </td>
 <td width="42%" align="center">
 
-<img src="./asset/portfolio.gif" width="100%" alt="Coding animation"/>
+<img src="./asset/boy-coding.jpg" width="100%" alt="Coding animation"/>
 
 </td>
 </tr>
