@@ -151,7 +151,7 @@ A modern, minimal portfolio website showcasing my projects, skills, and journey.
 
 <div align="center">
 
-<img src="https://github.pumbas.net/api/contributions/mitulupadhyay?colour=38BDF8&bgColour=0F172A&dotColour=334155&days=90&borderRadius=12" alt="Activity Graph" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mitulupadhyay&theme=tokyo-night&hide_border=true" alt="Activity Graph" width="100%"/>
 
 <br/><br/>
 
